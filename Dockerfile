@@ -19,7 +19,7 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
 RUN go env
 
-RUN go build -o wiki .
+RUN go build -o gowiki .
 
 EXPOSE 8080
 
